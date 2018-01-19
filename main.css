@@ -1,11 +1,186 @@
-sectionv {
-  background: rgba(255, 0, 0, 0.2);
-}
-h2 {
-  border: 6px solid;
-  border-color: blue
-  height: 100px;
-  width: 400px;
-  margin: 40px;
+@font-face {
+    font-family: Bree Serif;
+    src: url("Fonts/BreeSerif.otf");
 }
 
+#top {
+	background-color: rgba(73,165,176,0.3); 
+	height: 100%;
+}
+
+* {
+  	font-family: Bree Serif;
+	box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+	background-color: #1F57E4;
+	flex-direction: column;
+	height: 120px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.first {
+	display: flex;
+}
+
+header .symbol, .searchBox, .dropdown, .cartDiv {
+	margin-left: 100px;
+	background-color: none;
+	align-items: center;
+	display: flex;
+}
+
+header .searchBox {
+	width: 35%;
+}
+
+header h1 img{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-top: -2%;
+	margin-right: 15px;
+}
+
+header h1{
+	color: #053370;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	width: 100%;
+	padding: 5px;
+}
+
+header input{
+	border-radius: 10px;
+	height: 50%;
+	width: 100%;
+	font-size: 25px;
+	border:2px solid #0E4085;
+	background-color: #f1f1f1;
+	background-image: url('Images/search.png');
+	background-size: 30px;
+    background-position: 1% 40%; 
+    background-repeat: no-repeat;
+    padding: 8px 20px 12px 40px;
+}
+
+header input:focus {
+	background-color: #E2F41E;
+	outline: none;
+}
+
+.dropdown {
+	width: 8%;
+	background-color: none;
+	margin-bottom: 10px;
+}
+
+.account {
+	width: 100%;
+}
+
+.dropdown .dropbtn, .cart{
+	background-color: #f1f1f1;
+	color: #053370;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	height: 40%;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    background-color: #f9f9f9;
+    width: 9%;
+    box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.2);
+}
+
+header a {
+    color: #053370;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #E1E1E1}
+
+.account:hover .dropdown-content {
+    display: block;
+}
+
+.account:hover .dropbtn {
+    background-color: #E1E1E1;
+}
+
+.cart{
+	font-size: 25px;
+	padding: 0em;
+	display: flex;
+	align-items: center;
+}
+
+.cart:hover {
+	background-color: #E1E1E1;
+}
+
+#Electronics {
+	margin-top: 130px;
+}
+
+#Electronics .row-content {
+	display: flex;
+  	flex-wrap: nowrap;
+  	border-radius: 5px;
+}
+
+#Electronics h2, .row-content .all{
+	background-color: #f1f1f1;
+  	margin: 10px;
+  	text-align: center;
+  	color: #053370;
+}
+
+#Electronics .row-content {
+	height: 200px;
+	margin: 10px;
+}
+
+.row-content .all, .row-content .all a {
+	cursor: pointer;
+	height: 100%;
+	position: relative;
+}
+
+#Electronics img {
+	width: 100%;
+	height: 100%;
+}
+
+#Electronics .row-content .mobiles {
+	background-color: black;
+  	color: white;
+  	font-size: 30px;
+  	border-radius: 5px;
+  	visibility: hidden;
+  	position: absolute;
+  	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Electronics .all:hover img{  
+	opacity: 0.2;
+}
+
+#Electronics .all:hover .mobiles {
+  	visibility: visible;
+}

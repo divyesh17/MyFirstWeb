@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+  	<meta charset="utf-8">
+  	<title>YourCart</title>
+    <link rel="stylesheet" href="/Users/divyeshkumar/Desktop/MyFirstWeb/main.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" href="/Users/divyeshkumar/Desktop/MyFirstWeb/logo.ico"/>
+  </head>
+  
+  <body id="top">
+  
+    <header>
+      <div class="row">
+
+        <div class="first">
+          <div class="symbol">
+            <a href="/Users/divyeshkumar/Desktop/MyFirstWeb/index.html">
+              <h1><img src="/Users/divyeshkumar/Desktop/MyFirstWeb/Images/logo.png" alt="YC">YourCart</h1>
+            </a>
+          </div>
+
+          <div class="searchBox">
+            <input type="text" name="search" placeholder="Search..">
+          </div>
+
+          <div class="dropdown">
+            <div class="account">
+              <button class="dropbtn">Your account</button>
+              <div class="dropdown-content">
+                <a href="#">Profile</a>
+                <a href="#">Order</a>
+                <a href="#">Wallet</a>
+                <a href="#">Settings</a>
+                <a href="#">Logout</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </header>  
+
+      <div class="cartBox">
+        <div class="cartItm">
+          <table id="ctTbl">
+            <thead>
+              <tr>
+                <th class="first">Items</th>
+                <th class="second">Qty</th>
+                <th class="third">Name</th>
+                <th class="fourth">Price</th>
+                <th class="fifth"></th>
+              </tr>
+            </thead>
+
+            <tbody>
+        
+              <tr class="itm fi">
+                <td><div class="prod"><img src="Images/mobile.jpeg"></div></td>
+                <td><input type="number" value="1" min="0" max="99" class=" qtyinput"></td>
+                <td>Redmi Note 4</td>
+                <td>₹11,999</td>
+                <td><span class="remove"><div><img src="Images/d.jpeg" alt="X"></div></span></td>
+              </tr>
+
+              <tr class="itm se">
+                <td><div class="prod"><img src="Images/laptop.jpeg"></div></td>
+                <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+                <td>Apple MacBook Air</td>
+                <td>₹54,490</td>
+                <td><span class="remove"><div><img src="Images/d.jpeg" alt="X"></div></span></td>
+              </tr>
+
+              <tr class="itm th">
+                <td><div class="prod"><img src="Images/acc.jpeg"></div></td>
+                <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+                <td>Mobile Charger</td>
+                <td>₹490</td>
+                <td><span class="remove"><div><img src="Images/d.jpeg" alt="X"></div></span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div> 
+
+
+        <div class="priceAndCheckout">
+          <div class="priceBox">
+            <div class="priceDetails">
+              <span>Price Details</span>
+            </div>
+
+            <div class="qntWisePrice">
+              <div class="qntAndPrice">
+                <div>Price (3 items)</div>
+                <div class=""> ₹66,979</div>
+              </div>
+
+              <div class="qntAndPrice">
+                <div>Delivery Charges</div>
+                <div class=""> ₹52</div>
+              </div>
+
+              <div class="totAmountBox">
+                <div class="qntAndPrice">
+                  <div>Amount Payable</div>
+                  <div class=""> ₹67,031</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         <div class="chkoutAndShpng">
+          <div class="shpng">
+            <a href="#">Continue Shopping</a>
+          </div>
+          <div class="shpng chkout">
+            <a href="#">Checkout</a>
+         </div>
+        </div>
+      </div>
+  </body>
+</html>

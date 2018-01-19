@@ -1,0 +1,165 @@
+
+.cartBox {
+	margin-top: 130px;
+	display: flex;
+}
+
+.cartItm {
+	width: 70%;
+}
+
+#ctTbl {
+	border-radius: 10px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#ctTbl thead th.first {
+  width: 300px;
+  display: flex;
+  text-align: center;
+  padding-left: 50%; 
+}
+#ctTbl thead th.second {
+  width: 45px;
+}
+#ctTbl thead th.third {
+  width: 230px;
+}
+#ctTbl thead th.fourth {
+  width: 130px;
+}
+#ctTbl thead th.fifth {
+  width: 50px;
+}
+
+#ctTbl tr {
+	background-color: white;
+	border-radius: 10px;
+}
+
+#ctTbl .prod {
+	width: 300px;
+	height: 300px;
+}
+
+#ctTbl .itm td  {
+	padding-left: 2%;
+}
+
+#ctTbl .fi img {
+	height: 80%;
+	width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+#ctTbl .se img {
+	height: 50%;
+	width: 80%;
+    margin-left: 10%;
+    margin-top: 25%;
+}
+
+#ctTbl .th img {
+	height: 50%;
+	width: 50%;
+    margin-left: 25%;
+    margin-top: 25%;
+}
+
+#ctTbl .remove div {
+	width: 100%;
+	height: 100%;
+}
+
+#ctTbl .remove img {
+	height:20%;
+	width: 60%;
+    margin-left:3%;
+    margin-top: 25%;
+}
+
+#ctTbl .remove img:hover{
+	cursor: pointer;
+}
+
+
+
+.priceAndCheckout {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	left: 70%;
+	width: 29%;
+}
+
+.priceBox {
+	background: #fff;
+    border-radius: 2px;
+    min-height: 47px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin-bottom: 20px;
+}
+
+.priceDetails {
+	text-transform: uppercase;
+    padding: 13px 24px;
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: 500;
+    color: #878787;
+    min-height: 47px;
+    border-radius: 2px 2px 0 0;
+}
+
+.qntWisePrice {
+	border-bottom: 1px solid #f0f0f0;
+    padding: 0 24px;
+    font-size: 15px;
+}
+
+.qntAndPrice {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.totAmountBox {
+	border-top: 1px dashed #e0e0e0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.chkoutAndShpng {
+	display: flex;
+	justify-content: space-around;
+	height: 100px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.shpng {
+	height: 50%;
+	background-color: none;
+	margin-top: 25px;
+	display: flex;
+}
+
+.shpng a {
+	font-size: 20px;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+	background-color: orange;
+	border-radius: 10px;
+	padding: 10px 5px;
+	color: black;
+}
+
+.shpng a:hover{
+	cursor: pointer;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.chkoutAndShpng .chkout a{
+	background-color: #22c13a;
+}
