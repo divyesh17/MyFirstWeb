@@ -3,25 +3,29 @@
     src: url("Fonts/BreeSerif.otf");
 }
 
-#top {
+#top,html {
 	background-color: rgba(73,165,176,0.3); 
-	height: 100%;
+	float: left;
+	min-width: 100%;
 }
 
 * {
   	font-family: Bree Serif;
 	box-sizing: border-box;
+	margin:0;
+	padding: 0;
 }
 
-.row {
+header {
 	display: flex;
 	background-color: #1F57E4;
 	flex-direction: column;
 	height: 120px;
-	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100%;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .first {

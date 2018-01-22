@@ -2,15 +2,15 @@ li{
 	list-style: none;
 }
 
-#redmi{
+.bookpage{
 	margin-top: 130px;
 	width: 100%;
-    height: 100%;
+    height: 600px;
     padding: 10px;
     border-radius: 5px;
 }
 
-#redmi .product {
+.bookpage-product {
 	float: left;
 	display: flex;
 	flex-direction: column;
@@ -18,7 +18,7 @@ li{
 	width: 30%;
 }
 
-#redmi .product .img {
+.bookpage-product-img {
 	height: 95%;
 	width: 100%;
 	background-color: white; 
@@ -26,34 +26,34 @@ li{
 	border: 1px solid #0E4085;
 }
 
-#redmi img {
+.bookpage-product-img img {
 	height: 80%;
 	width: 50%;
     margin-left: 25%;
     margin-top: 10%;
 }
 
-#redmi .product .img:hover {
+.bookpage-product-img:hover {
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-#redmi .product img:hover {
+.bookpage-product-img img:hover {
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-#redmi .product .btn {
+.bookpage-product-btn {
 	display: flex;
 	margin-top: 10px; 
 	height: 100%;
 	width: 100%;
 }
 
-#redmi .product .btn div {
+.bookpage-product-btn div {
 	width: 50%;
 	height: 100%;
 }
 
-#redmi .product .btn button {
+.bookpage-product-btn button {
 	width: 70%;
 	height: 50%;
 	margin-left: 15%;
@@ -65,20 +65,20 @@ li{
 	color: #0E4085;
 }
 
-#redmi .product .btn .ctBtn button {
+.bookpage-product-btn-ctBtn button {
 	background-color: orange;
 }
 
-#redmi .product .btn .bBtn button {
+.bookpage-product-btn-bBtn button {
 	background-color: #3aaf6d
 }
 
-#redmi .product .btn button:hover {
+.bookpage-product-btn button:hover {
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 
-#redmi .info {
+.bookPage-info{
 	height: 100%;
 	padding-left: 30px;
 	background-color: none;
@@ -86,17 +86,17 @@ li{
 	flex-direction: column;
 }
 
-#redmi .info .priceAndSeller {
+.bookPage-info-priceAndSeller {
 	display: flex;
 	background-color: none;
 	flex-shrink: 0;
 }
 
-#redmi .info .priceAndSeller .price{
+.bookPage-info-priceAndSeller-price{
 	margin-right: 10px;
 }
 
-#redmi .info .specs {
+.bookPage-info-specs {
 	margin-top: 24px;
     border-radius: 2px;
     font-size: 12px;
@@ -104,36 +104,36 @@ li{
     overflow: scroll;
 }
 
-#redmi .info .specs .fi {
+.bookPage-info-specs-fi {
 	padding: 24px 30px 24px 24px;
     font-size: 24px;
     color: #212121;
 }
 
-#redmi .info .seFi {
+.bookPage-info-specs-se-seFi {
 	border-top: solid 2px maroon;
     padding: 24px 24px 34px 24px;
     font-size: 14px;
 }
 
-#redmi .info .gen {
+.bookPage-info-specs-se-seFi-gen {
     font-size: 18px;
 }
 
-#redmi .info .seFi ul{
+.bookPage-info-specs-se-seFi ul{
 	padding: 0px;
 }
 
-#redmi .info .li {
+.bookPage-info-specs-se-seFi-list {
 	padding-top: 16px;
 	display: flex;
 }
 
-#redmi .info .li div {
+.bookPage-info-specs-se-seFi-list div {
 	color: #878787;
     padding-right: 8px;
 }
 
-#redmi .info .li .col {
+.bookPage-info-specs-se-seFi-list-column {
 	width : 15%;
 }
